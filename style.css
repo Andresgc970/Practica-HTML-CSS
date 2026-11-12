@@ -1,0 +1,72 @@
+body{
+
+    text-align: center;                                     /*Texto centrado dentro de body*/
+    background-image: url("Imagenes/Background.jpg");       /*Imagen de fondo de la pagina web*/
+    background-size: contain;                               /*Tamaño De la imagen de fondo*/
+    background-position-x: center;                          /*Posicion De la imagen de fondo*/
+    color: whitesmoke;                                    /*Color de texto dentro de body*/ 
+    
+}
+
+p {
+    
+    font-size: 30px;                     /*Tamaño del texto*/
+    padding: 20px 40px 30px 40px;        /*Ubicacion del texto dentro de la caja*/
+    border: 2px solid white;           /*Para marcar los bordes de la caja */
+    width: 1000px;                        /*Tamaño de ancho del texto*/
+    margin: auto;                        /*Para centar la caja del texto*/
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+
+.huron{
+
+    width: 500px;                           /*Ancho de la imagen*/
+    height: auto;                           /*Altura de la imagen auto Se acomoda depende del ancho*/
+    border: 5px solid white;              /*Borde De la imagen*/
+}
+
+
+.menu ul {
+    display: flex;                          /*Contenedor Flex tipo flexbox*/
+    flex-direction: row;                    /* Column Coloca los elementos verticalmente-- row horizontalmente*/
+    justify-content: space-evenly;          /*Reparte los elementos en el espacio disponible del contenedor*/
+    /*justify-content: center;*/                /*Deja el contedor a la derecha(flex), centrado, izquierda horizontalmente con los elementos que contenga*/
+    align-items: center;                    /*Deja el contedor arriba(flex), centrado, abajo verticalmente con los elementos que contenga*/
+    gap: 200px;                             /*Determina que tn separado van a estar los elementos del centro unas entre otras*/
+    /*height: 50px;*/                           /*Determina la altura del contenedor*/
+    /*width: 1000px;*/                          /*Determina el ancho del contenedor*/
+    flex-wrap: nowrap;                      /*Wrap Permite que los elementos se distribuyan correctamente cuando no caben*/
+    border: 5px solid white;              /*Bordes del contenedor*/
+}
+
+.contenido {
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    
+}
+
+.invertido {
+    flex-direction: row-reverse;
+}
+
+footer{
+
+    display: flex;
+    font-size: 25px;
+    justify-content: flex-end;
+}
+
+.Azul{
+    color:aquamarine;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="style.css">
+<body>
+  <h1>AppHurones</h1>
+  <main>
+
+
+  <div class="menu">  
+    <ul>
+      <li><a href="#parrafo_1"> Parrafo 1</a></li>
+    
+      <li><a href="#parrafo_2"> Parrafo 2</a></li>
+    
+      <li><a href="#parrafo_3"> Parrafo 3</a></li>
+    
+      <li><a href="#parrafo_4"> Parrafo 4</a></li>
+  
+      <li><a href="#">Parrafo 5</a></li>
+  
+      <li><a href="#">Parrafo 6</a></li>
+  
+      <li><a href="#">Parrafo 7</a></li>
+  
+      <li><a href="#">Parrafo 8</a></li>
+  
+    </ul>
+  </div>
+  
+
+  
+  <div class="Titulo">
+
+    <h1 id="parrafo_1">Parrafo 1</h1>
+    
+    <div class="contenido">
+      <a href="https://unsplash.com/es/s/fotos/hur%C3%B3n"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm92nZKTkQwzTq1JtLfvi8VmK3zhh87RH63PwQYS8X4v0t_D2OJbU75fg&s=10" alt="Imagen de un huron" class="huron"></a>
+      
+      <p>Los hurones son mascotas domésticas <strong>fascinantes</strong>que pertenecen a la familia de los mustélidos, la misma de las nutrias y los tejones. Tienen un cuerpo alargado, flexible y patas cortas, lo que les permite <em>explorar</em> rincones estrechos con gran facilidad. <s>Son conocidos por su naturaleza sumamente curiosa, enérgica y juguetona,</s> pasando sus horas de vigilia todo a su alrededor y escondiendo objetos pequeños en lugares secretos.</p>
+    </div>
+  </div>
+
+  <div class="Titulo">
+    
+    <div class="Azul">
+      <h1 id="parrafo_2">Parrafo 2</h1>
+    </div>
+
+    <div class="contenido invertido">
+      <img src="Imagenes/Huron1.png" alt="Imagen de un huron desde carpeta " class="huron">
+    
+      
+      <p>A pesar de su gran energía cuando están despiertos, los hurones son animales crepusculares que duermen entre 14 y 18 horas al día. Son excelentes compañeros para personas que trabajan, ya que se adaptan bien a los horarios de sus dueños. Requieren una dieta estrictamente carnívora, alta en proteínas y grasas animales, y necesitan pasar varias horas al día fuera de su jaula para ejercitarse y socializar adecuadamente.</p>
+    </div>
+  </div>
+
+  <div class="Titulo">
+    <h1 id="parrafo_3">Parrafo 3</h1>
+    <div class="contenido">
+
+      <img src ="Imagenes/huron2.jpg" alt="Imagen de un huron blanco" class="huron"> 
+
+      <p>La domesticación del hurón se remonta a miles de años atrás, cuando fueron utilizados inicialmente para la caza de conejos y el control de plagas de roedores en los graneros debido a su agilidad para introducirse en las madrigueras. Con el paso del tiempo, su rol cambió radicalmente hasta convertirse en el tercer animal de compañía mamífero más popular en muchos hogares occidentales. Esta transición se debe a su capacidad para formar fuertes lazos afectivos con los humanos, respondiendo a su nombre y aprendiendo trucos sencillos mediante el refuerzo positivo.</p>
+      
+    </div>
+  </div>
+  
+
+  <div class="Titulo">
+    
+
+    <h1 id="parrafo_4">Parrafo 4</h1>
+    
+    <div class="contenido invertido">
+
+      <img src = "Imagenes/huron3.jpg" alt="Imagen de un huron Con capucha" class="huron">
+      <p>En el ámbito de la convivencia, estos animales destacan por su particular forma de comunicarse y expresar alegría, la cual incluye la famosa "danza de guerra del hurón", un comportamiento donde saltan de lado, chocan contra las paredes y emiten un suave sonido chirriante conocido en inglés como dooking. Sin embargo, tenerlos implica una gran responsabilidad, ya que poseen un olor corporal almizclado natural y una tendencia instintiva a morder cables o tragar objetos de goma, lo que exige una estricta supervisión para garantizar su seguridad dentro del hogar.</p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  
+  
+  
+
+  <!--
+  form = Formularios donde se utiliza para enviar respuestasde un usuario a un servidor
+  input type radio = boton de respuesta unica
+  input type checkbox = casilla de verficacion de respuesta multiple
+  input type text = tipo de respuesta de texto
+  name= identificador del frupo de respuesta al que pertenece
+  value= es la informacion que se enviara al servidor, al se esa respuesta seleccionada 
+  button type sumbit = para enviar la informacion 
+  div = para encerrar un bloque de codigo en un contendor  
+  -->
+
+
+  <form action="/enviar_respuesta">
+
+  <!---->
+  <label for="si">
+    <input id="si" type="radio" name="si-no" value="si" checked>Si
+  </label>
+  <br>
+
+  <label for="no">
+    <input id="no" type="radio" name="si-no" value="no">No
+  </label>
+  <br>
+
+  <!--Casillas de Verificacion-->
+  <label for="blanco">
+    <input id="blanco" type="checkbox" name="color" value="Blanco" checked>Blanco
+  </label>
+  <br>
+
+  <label for="cafe">
+    <input id="cafe" type="checkbox" name="color" value="Cafe">Cafe
+  </label>
+  <br>
+
+  <label for="multicolor">
+    <input id="multicolor" type="checkbox" name="color">Multicolor
+  </label>
+  <br>
+
+  
+  <!--Boton Texto Enviar-->
+  <input type="text" placeholder="Opiniones" required>
+  <button type="sumbit" > Enviar</button>
+
+  <br>
+  <br>
+
+  </form>
+
+
+  <p><a href="https://www.anicura.es/consejos-de-salud/otros-animales/consejos-de-salud-para-mascotas/hurones/" target="_blank" rel="noopener noreferrer">Haz click Aqui para leer mas sobre hurones</a></p>
+
+  <br>
+
+  </main>  
+  
+  <footer>
+    Gracias
+  </footer>
+</body>
+</html> 
